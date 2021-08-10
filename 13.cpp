@@ -16,12 +16,13 @@ int main() {
         cout << "Ingrese un valor para A: "; cin >>A;
         cout << "Ingrese un valor para B: "; cin >>B;
 
-        //"Proceso"
+        //Proceso
 
         C=A;
         A=B;
         B=C;
 
+        //Impresión
         cout << endl << endl << endl;
         cout << "El valor permutado de A es " << A << endl;
         cout << "El valor permutado de B es " << B << endl;
